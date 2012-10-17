@@ -14,7 +14,7 @@ module ActionLogger
       end
 
       def create_migrations
-        migration_template 'create_action_logs.rb' #, 'db/migrate/create_action_log.rb'
+        migration_template 'create_action_logs.rb', 'db/migrate/create_action_logs.rb'
       end
     end
   end
